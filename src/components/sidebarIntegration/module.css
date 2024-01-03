@@ -1,0 +1,264 @@
+.sidebarAndCardWrapper {
+  width: 100vw;
+  display: flex;
+}
+.sidebar {
+  width: 209.54px;
+  min-width: 209.54px;
+  margin: 40px 0;
+  padding: 42px 0;
+  display: flex;
+  gap: 16px;
+}
+.sidebarStepTracksWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.98px;
+}
+.integrationGradientBullet {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  min-width: 10px;
+  min-height: 10px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: linear-gradient(180deg, #00ffb2 0%, #ff7596 100%);
+  box-shadow: 0px 0px 10px 0px #2ae9ae;
+}
+.sidebarStepTextWrapper {
+  margin: 0;
+  padding: 0;
+}
+.sidebarStepTextWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.sidebarStepTitle {
+  color: rgba(0, 0, 0, 1) !important;
+  font-family: Roboto !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 32px !important;
+}
+.sidebarStepDesc {
+  color: rgba(0, 0, 0, 1) !important;
+  font-family: Roboto !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 18.858px !important;
+}
+
+.sidebarStepTitle.incomplete,
+.sidebarStepDesc.incomplete {
+  opacity: 0.5;
+}
+.card {
+  margin: 40px;
+  padding: 1px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  height: calc(100% - 80px);
+  flex-direction: column;
+  align-items: center;
+  border: double 1px transparent;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  background-image: linear-gradient(white, white),
+    linear-gradient(180deg, #03ffb2, #ff7596);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.card.fullWidth {
+  margin-left: 0px;
+  max-width: 100vw;
+  align-items: stretch;
+}
+
+.cardContent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 27.5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.cardMain {
+  margin: 0 -40px -25px -40px;
+  padding: 0 40px;
+  width: calc(100% + 80px);
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.cardFooter {
+  display: flex;
+  height: 80.08px;
+  padding: 24.54px 30px 23.54px 30px;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+  gap: 8.88px;
+  border-top: 1px solid rgba(48, 32, 32, 0.1);
+}
+
+.cardFooter.hasCancel {
+  justify-content: space-between;
+}
+
+.cardTitle {
+  color: #000 !important;
+  text-align: center !important;
+  font-family: Roboto !important;
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+.integrationMethodDesc {
+  color: rgba(0, 0, 0, 0.8) !important;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+.integrationMethodWrapper {
+  margin-top: 72.5px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+}
+
+.cardHeader {
+  padding: 40px 40px 50px 40px !important;
+  margin: 0 !important;
+  width: calc(100% + 82px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #eae9e9;
+}
+
+.integrationMethod {
+  display: inline-flex;
+  width: 217px;
+  height: 80px;
+  align-items: center;
+  gap: 15px;
+  border-radius: 5px !important;
+  border: 1px solid rgba(0, 0, 0, 0.15) !important;
+  background: #fff;
+}
+.cardFooter {
+  display: flex;
+  height: 80.08px;
+  padding: 24.54px 30px 23.54px 30px;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+  gap: 8.88px;
+  border-top: 1px solid rgba(48, 32, 32, 0.1);
+}
+
+.cardFooter.hasCancel {
+  justify-content: space-between;
+}
+.footerRightBackBtn {
+  display: flex !important;
+  height: 31.99px !important;
+  padding: 4.49px 16.28px 5.5px 16.47px !important;
+  align-items: flex-start !important;
+  border-radius: 4px !important;
+  border: 1px solid #616161 !important;
+  background: #fff !important;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.02) !important;
+}
+.footerBtn.right {
+  border: 1px solid #002733 !important;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04) !important;
+}
+
+.footerRightBackBtn > .btnText {
+  color: #5c5c5c !important;
+  text-align: center !important;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+.footerDoneBtn {
+  display: flex !important;
+  width: 100.44px !important;
+  height: 31.99px !important;
+  padding: 4.49px 15.99px 5.5px 16.2px !important;
+  justify-content: center !important;
+  align-items: flex-end !important;
+  gap: 6px !important;
+  border-radius: 4px !important;
+  border: 1px solid #03ffb2 !important;
+  background: #002733 !important;
+}
+
+.footerDoneBtn > .btnText {
+  color: #03ffb2 !important;
+  text-align: center !important;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+.rightArrowIcon {
+  fill: rgba(0, 39, 51, 1) !important;
+}
+
+.footerCancelBtn {
+  border: none !important;
+}
+
+.footerCancelBtn > .btnText {
+  opacity: 0.8 !important;
+}
+
+.btnIcon.disabled,
+.btnText.disabled {
+  color: #ebf1f4 !important;
+}
+
+.awsAccIdText {
+  margin-bottom: 5.5px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.accountIdInput {
+  margin-top: 5.5px;
+  width: 100%;
+  max-width: 287px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #eae9e9;
+}

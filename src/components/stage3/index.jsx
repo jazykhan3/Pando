@@ -9,10 +9,12 @@ import {
     Typography,
 } from "@mui/material";
 import React from 'react'
-import MultiStepSidebar from "./MultiStepSidebar";
-import awsLogo from "../images/AWSDark.svg";
-import spinner from "../images/spinner.svg";
+import MultiStepSidebar from "../MultiStepSideBar";
+import awsLogo from "../../images/AWSDark.svg";
+import spinner from "../../images/spinner.svg";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import "./module.css";
+
 
 function Stage3({sidebarStep, handleBack, handleContinue, handleDone, isBackDisabled}) {
   return (

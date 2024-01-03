@@ -4,9 +4,11 @@ import {
     Box,
     Toolbar,
 } from "@mui/material";
-import pandoLogo from "../images/pando-logo.svg";
+import pandoLogo from "../../images/pando-logo.svg";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { ProgressBar } from "react-step-progress-bar";
+import "./module.css";
+
 
 function Header({stage, sanitizedUserName}) {
     return (

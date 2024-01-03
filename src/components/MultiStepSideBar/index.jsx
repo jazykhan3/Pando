@@ -8,6 +8,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
+import "./module.css";
 
 export default function MultiStepSidebar({ sidebarStep }) {
     return (

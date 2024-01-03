@@ -10,6 +10,8 @@ import {
     Typography,
   } from "@mui/material";
   import ReactPlayer from "react-player";
+import "./module.css";
+
 
 function Stage1({sanitizedUserName, KeyboardBackspaceIcon, ArrowRightAltIcon, handleBack, handleContinue}) {
   return (
@@ -37,7 +39,7 @@ function Stage1({sanitizedUserName, KeyboardBackspaceIcon, ArrowRightAltIcon, ha
                 <ReactPlayer
                   url="https://s3.amazonaws.com/pandosec.com/assets/Pando.mp4"
                   controls
-                //   playing
+                  playing
                   style={{ width: "100%" }}
                 />
               </Box>

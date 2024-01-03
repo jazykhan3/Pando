@@ -21,34 +21,34 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 // import DoneIcon from "@mui/icons-material/Done";
 // import pandoLogo from "../images/pando-logo.svg";
-import awsLogo from "../images/AWSDark.svg";
-import alkamaiLogo from "../images/akamai.svg";
-import datadogLogo from "../images/Datadog.svg";
-import githubLogo from "../images/githubDark.svg";
-import kubernetesLogo from "../images/kubernetesDark.svg";
-import oktaLogo from "../images/oktaDark.svg";
-import gcpLogo from "../images/gcp.svg";
-import newrelicLogo from "../images/newrelic_dark.svg";
+import awsLogo from "../../images/AWSDark.svg";
+import alkamaiLogo from "../../images/akamai.svg";
+import datadogLogo from "../../images/Datadog.svg";
+import githubLogo from "../../images/githubDark.svg";
+import kubernetesLogo from "../../images/kubernetesDark.svg";
+import oktaLogo from "../../images/oktaDark.svg";
+import gcpLogo from "../../images/gcp.svg";
+import newrelicLogo from "../../images/newrelic_dark.svg";
 // import cloudFormationLogo from "../images/cloudFormation.svg";
 // import terraformLogo from "../images/terraform.svg";
 // import pandoSmallLogo from "../images/pando-small-logo.svg";
 // import spinner from "../images/spinner.svg";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import "../styles/Onboarding.css";
+import "./module.css";
 // import {
 //   sendAwsOnboarding,
 //   checkOnboarding,
 //   finishOnboarding,
 // } from "../utils/api";
 // import MultiStepSidebar from "./MultiStepSidebar";
-import Header from "./Header";
-import Stage1 from "./Stage1";
-import Stage2 from "./Stage2";
-import Sidebar from "./Sidebar";
-import SidebarIntegration from "./SidebarIntegration";
-import Stage3 from "./Stage3";
-import Completed from "./completed/Completed";
+import Header from "../header";
+import Stage1 from "../stage1";
+import Stage2 from "../stage2";
+import SidebarIntegration from "../sidebarIntegration";
+import Stage3 from "../stage3";
+import Completed from "../completed";
+import Sidebar from "../sidebar";
 
 // const GITHUB_CLIENT_ID = "7fb75e3b108747c19873";
 // const GITHUB_REDIRECT_URI = process.env.REACT_APP_FRONTEND_URL + "/github_auth/";
@@ -290,7 +290,7 @@ export default function Onboarding() {
 
   return (
     <Box>
-      <Header stage={stage} sanitizedUserName={sanitizedUserName} />
+      <Header  stage={stage} sanitizedUserName={sanitizedUserName} />
 
       <Box component="main" className="container">
         {stage === 1 && !integrationMethodPickerOpen && !integrationOpen && (

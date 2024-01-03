@@ -10,6 +10,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import DoneIcon from "@mui/icons-material/Done";
+import "./module.css";
+
+
 
 const integrationCardWidths = [275, 459, 370, 370, 312, 423, 403, 329];
 

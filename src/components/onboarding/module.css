@@ -1,0 +1,7 @@
+.container {
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebf1f4;
+}

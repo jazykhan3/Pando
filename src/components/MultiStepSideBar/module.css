@@ -1,0 +1,94 @@
+
+.sidebar {
+    width: 209.54px;
+    min-width: 209.54px;
+    margin: 40px 0;
+    padding: 42px 0;
+    display: flex;
+    gap: 16px;
+  }
+  
+  .sidebarStepTracksWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.98px;
+  }
+  
+  .integrationGradientBullet {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    min-height: 10px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #00ffb2 0%, #ff7596 100%);
+    box-shadow: 0px 0px 10px 0px #2ae9ae;
+  }
+  
+  .integrationBullet {
+    width: 8px;
+    height: 8px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #03ffb2;
+    background: rgba(0, 255, 178, 1);
+  }
+  
+  .integrationBullet.incomplete {
+    background: rgba(3, 255, 178, 1);
+  }
+  
+  .integrationStepLine {
+    width: 1px;
+    height: 64.01px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    opacity: 0.5;
+    background: #000;
+  }
+  
+  .integrationStepLine.active {
+    background: linear-gradient(180deg, #03ffb2 0%, #ff7596 100%);
+  }
+  
+  .sidebarAndCardWrapper {
+    padding-left: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    overflow-y: hidden;
+  }
+  
+  .sidebarStepTextWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebarStepTitle {
+    color: rgba(0, 0, 0, 1) !important;
+    font-family: Roboto !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+  }
+  
+  .sidebarStepDesc {
+    color: rgba(0, 0, 0, 1) !important;
+    font-family: Roboto !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 18.858px !important;
+  }
+  
+  .sidebarStepTitle.incomplete,
+  .sidebarStepDesc.incomplete {
+    opacity: 0.5;
+  }
+  
